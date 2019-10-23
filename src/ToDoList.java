@@ -3,13 +3,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 //Proudly created by
-//Zacwy
-//Cavirare
-//zeckem19
-//abel7777
-//wonggy-123
-//Thanks
-
+//Zacwy. Cavirare,zeckem19, abel7777, wonggy-123
+// kthxbye
 
 public class ToDoList {
 
