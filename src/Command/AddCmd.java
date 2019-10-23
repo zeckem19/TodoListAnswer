@@ -4,10 +4,9 @@ import core.ToDoList;
 import core.Task;
 
 public class AddCmd implements Command {
-	public String desc;
+	String desc;
 	@Override
 	public void setArgs(String... args) {
-		// Do Nothing
 		desc = args[0];
 	}
 
