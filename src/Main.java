@@ -10,7 +10,7 @@ public class Main {
 		while(!(userCmd instanceof ExitCmd)) {
 			String input = sc.nextLine();
 			userCmd = getCommand(input);
-			userCmd.execute();
+			userCmd.execute(null);
 		}
 	}
 	

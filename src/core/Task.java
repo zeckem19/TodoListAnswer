@@ -1,3 +1,4 @@
+package core;
 
 public class Task {
 	private String description = null;
