@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 import Command.AddCmd;
 import Command.Command;
+import Command.DeleteCmd;
 import Command.ExitCmd;
 import Command.ViewCmd;
 import core.ToDoList;
@@ -35,6 +36,9 @@ public class Main {
 				break;
 			case "view":
 				userCmd = (Command) new ViewCmd();
+				break;
+			case "delete":
+				userCmd = (Command) new DeleteCmd();
 				break;
 			case "exit":
 				userCmd = (Command) new ExitCmd();

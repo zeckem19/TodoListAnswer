@@ -9,7 +9,7 @@ import Command.ViewCmd;
 import Command.DeleteCmd;
 
 
-public class MainTest {
+public class DeleteTest {
 
 	@Test
 	public void testGetCommand() {
@@ -26,7 +26,7 @@ public class MainTest {
 		assertTrue(userCmd instanceof ViewCmd);
 		
 		userCmd = Main.getCommand("delete");
-		assertTrue(userCmd instanceof DeleteCmd);
+		assertTrue(userCmd instanceof DeleteTest);
 	}
 
 }
