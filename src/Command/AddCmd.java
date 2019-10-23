@@ -17,5 +17,4 @@ public class AddCmd implements Command {
 		myTDL.addTask(task);
 	}
 	
-
 }
