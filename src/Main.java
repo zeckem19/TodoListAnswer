@@ -13,9 +13,7 @@ public class Main {
 		Command userCmd = null;
 		Scanner sc = new Scanner(System.in);
 		ToDoList myTdl = new ToDoList();
-		myTdl.addTask(new Task("test1"));
-		myTdl.addTask(new Task("test2"));
-		
+
 		while(!(userCmd instanceof ExitCmd)) {
 			String input = sc.nextLine();
 			userCmd = getCommand(input);
@@ -51,7 +49,7 @@ public class Main {
 		
 		if (strArgs.length >= 2) {
 			userCmd.setArgs(strArgs[1]);
-			System.out.println(strArgs[1]);
+			//System.out.println(strArgs[1]);
 		}
 		return userCmd;
 	}
