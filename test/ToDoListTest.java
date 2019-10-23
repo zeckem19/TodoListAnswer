@@ -1,4 +1,8 @@
 import org.junit.*;
+
+import core.Task;
+import core.ToDoList;
+
 import static org.junit.Assert.*;
 
 
