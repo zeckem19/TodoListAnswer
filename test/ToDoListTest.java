@@ -63,6 +63,6 @@ public class ToDoListTest {
 		todoList.addTask(task3);
 		
 		Collection<Task> tasks = todoList.getCompletedTasks();
-		assertEquals(2, tasks.size());
+		assertEquals(3, tasks.size());
 	}
 }
